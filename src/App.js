@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-const socket = io("ws://192.168.1.103:8001", {
+const socket = io("ws://127.0.0.1:5354", {
   path: '/ws/socket.io'
 });
 
@@ -89,7 +89,7 @@ function App() {
   }
 
   const updatePrice = () => {
-    fetch(`http://192.168.1.103:8000/info/market-data`, {
+    fetch(`http://127.0.0.1:5354/info/market-data`, {
       headers: { "Cache-Control": "no-cache" }
     })
       .then(response => response.json())
