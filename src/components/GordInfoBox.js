@@ -9,7 +9,7 @@ const gordInfoBox = () => {
     const [data, setData] = useState({});
 
     async function updateData() {
-        await fetch('http://192.168.1.103:8000/info/kaspad')
+        await fetch('http://127.0.0.1:5354 /info/gord')
             .then((response) => response.json())
             .then(d => setData(d))
             .catch(err => console.log("Error", err))
