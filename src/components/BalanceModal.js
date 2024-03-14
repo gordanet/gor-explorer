@@ -8,7 +8,7 @@ const BalanceModal = (props) => {
         <Modal.Header closeButton>
           <Modal.Title>GOR Balance from REST-API</Modal.Title>
         </Modal.Header>
-        <Modal.Body>The $KAS balance for <br />{props.address} is:<br />
+        <Modal.Body>The $GOR balance for <br />{props.address} is:<br />
         <b>{props.balance} GOR</b></Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={props.handleClose}>
