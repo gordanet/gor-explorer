@@ -1,4 +1,4 @@
-const API_BASE = "http://192.168.1.103:8000/"
+const API_BASE = "http://127.0.0.1:5354/"
 
 export async function getBlock(hash) {
     const res = await fetch(`${API_BASE}blocks/${hash}`, { headers: { 'Access-Control-Allow-Origin': '*' } })
