@@ -5,7 +5,7 @@ import { FaMemory } from 'react-icons/fa';
 
 
 
-const gordInfoBox = () => {
+const GordInfoBox = () => {
     const [data, setData] = useState({});
 
     async function updateData() {
