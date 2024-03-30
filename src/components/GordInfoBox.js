@@ -57,4 +57,4 @@ const GordInfoBox = () => {
 }
 
 
-export default gordInfoBox
+export default GordInfoBox
