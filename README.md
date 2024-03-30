@@ -30,7 +30,7 @@ Build the block explorer:
 
 ```
 git clone https://github.com/gordanet/gor-explorer
-cd Gor-explorer
+cd gor-explorer
 export REACT_APP_VERCEL_GIT_COMMIT_SHA="$(git log -1 --date=short --format="%h" | tr -d '-')"
 export REACT_APP_API_ADDRESS=api.gord.network
 export REACT_APP_KGI_ADDRESS=kgi.gord.network
