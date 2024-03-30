@@ -8,7 +8,7 @@ import BalanceModal from './components/BalanceModal';
 import BlockDAGBox from './components/BlockDAG';
 import BlockOverview from './components/BlockOverview';
 import CoinsupplyBox from './components/CoinsupplyBox';
-import gordInfoBox from './components/gordInfoBox';
+import GordInfoBox from './components/GordInfoBox';
 import MarketDataBox from './components/MarketDataBox';
 import TxOverview from './components/TxOverview';
 import { getBlock } from './gor-api-client';
@@ -97,7 +97,7 @@ function Dashboard() {
             </div></Col>
             <Col sm={12} md={6} xl={3}><div className="infoBox"><BlockDAGBox /></div></Col>
             <Col sm={12} md={6} xl={3}><div className="infoBox"><
-gordInfoBox /></div></Col>
+GordInfoBox /></div></Col>
             <Col sm={12} md={6} xl={3}><div className="infoBox"><MarketDataBox /></div></Col>
           </Row>
         </Container>
